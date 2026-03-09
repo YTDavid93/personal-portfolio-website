@@ -1,5 +1,6 @@
-import Header from './components/Header/Header'
-import './App.css'
+import './App.css';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="cursor-ring" id="cursorRing"></div>
       
       <Header />
+      <Hero />
     </>
   )
 }
