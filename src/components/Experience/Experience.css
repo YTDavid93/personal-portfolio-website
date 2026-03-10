@@ -1,0 +1,69 @@
+/* experience css */
+
+#experience { border-top: 1px solid var(--border); }
+
+.exp-timeline {
+  position: relative;
+  padding-left: 32px;
+}
+
+.exp-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, var(--accent), var(--muted), transparent);
+}
+
+.exp-item {
+  position: relative;
+  padding-bottom: 64px;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.exp-item:hover { opacity: 1; }
+
+.exp-item::before {
+  content: '';
+  position: absolute;
+  left: -36px; top: 6px;
+  width: 9px; height: 9px;
+  background: var(--bg);
+  border: 1px solid var(--muted);
+  border-radius: 50%;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.exp-item:hover::before {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.exp-period {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.exp-role {
+  font-family: var(--font-display);
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.exp-company {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+}
+
+.exp-desc {
+font-size: 13px;
+color: var(--text-dim);
+max-width: 560px;
+line-height: 2;
+}
