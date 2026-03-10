@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About/About';
+import Experience from './components/Experience/Experience';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Project from './components/Project/Project';
@@ -18,6 +19,8 @@ function App() {
       <About />
       {/* render project section */}
       <Project />
+      {/* render experience section */}
+      <Experience />
     </>
   )
 }
