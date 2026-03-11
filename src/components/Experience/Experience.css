@@ -62,8 +62,8 @@
 }
 
 .exp-desc {
-font-size: 13px;
-color: var(--text-dim);
-max-width: 560px;
-line-height: 2;
+  font-size: 13px;
+  color: var(--text-dim);
+  max-width: 560px;
+  line-height: 2;
 }
