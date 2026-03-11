@@ -6,8 +6,8 @@ const Project = () => {
       <div className="section-label">Selected Work</div>
       <div className="section-title reveal">PROJECTS</div>
       <div className="projects-list">
-        <a href="https://game-hub-weld-tau.vercel.app/">
-          <div className="project-item reveal">
+        <a href="https://game-hub-weld-tau.vercel.app/" className="reveal">
+          <div className="project-item">
             <div className="project-num">01</div>
             <div className="project-info">
               <h3>Game Hub</h3>
@@ -24,8 +24,8 @@ const Project = () => {
             <div className="project-arrow">↗</div>
           </div>
         </a>
-        <a href="https://sorting-visualizer-kohl-seven.vercel.app/">
-          <div className="project-item reveal">
+        <a href="https://sorting-visualizer-kohl-seven.vercel.app/" className="reveal">
+          <div className="project-item">
             <div className="project-num">02</div>
             <div className="project-info">
               <h3>Sorting Visualizer</h3>
