@@ -60,22 +60,22 @@ const Project = () => {
           <div className="project-arrow">↗</div>
         </div>
         <div className="project-item reveal">
-          <div class="project-num">04</div>
-          <div class="project-info">
+          <div className="project-num">04</div>
+          <div className="project-info">
             <h3>Smart Campus Chatbot</h3>
             <p>
               Developed a college-specific, retrieval-based chatbot to provide accurate campus information.
               Implemented TF-IDF and Cosine Similarity algorithms to match user queries with relevant responses
               Stored conversation history in MongoDB to maintain context and support multi-turn conversations
             </p>
-            <div class="project-tags">
-              <span class="project-tag">React.js</span>
-              <span class="project-tag">Node.js</span>
-              <span class="project-tag">MongoDB</span>
-              <span class="project-tag">Python (TF-IDF, Cosine Similarity)</span>
+            <div className="project-tags">
+              <span className="project-tag">React.js</span>
+              <span className="project-tag">Node.js</span>
+              <span className="project-tag">MongoDB</span>
+              <span className="project-tag">Python (TF-IDF, Cosine Similarity)</span>
             </div>
           </div>
-          <div class="project-arrow">↗</div>
+          <div className="project-arrow">↗</div>
         </div>
       </div>
     </section>
